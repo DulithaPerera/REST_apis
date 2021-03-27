@@ -1,0 +1,23 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>PeopleServlet</servlet-name>
+        <servlet-class>PeopleServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>AuthServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AuthServlet</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PeopleServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

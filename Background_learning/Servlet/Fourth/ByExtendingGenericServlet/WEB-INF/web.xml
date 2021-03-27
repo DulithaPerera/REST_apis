@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>ByGenericServletClass</servlet-name>
+        <servlet-class>ByExtendingGenericServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ByGenericServletClass</servlet-name>
+        <url-pattern>/byGenericServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

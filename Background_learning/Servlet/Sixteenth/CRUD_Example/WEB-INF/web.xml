@@ -1,0 +1,41 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>UpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DeleteRowServlet</servlet-name>
+        <servlet-class>DeleteRowServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RegistrationServlet</servlet-name>
+        <servlet-class>RegistrationServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AllRegistrationsServlet</servlet-name>
+        <servlet-class>AllRegistrations</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegistrationServlet</servlet-name>
+        <url-pattern>/addNewRegistration</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AllRegistrationsServlet</servlet-name>
+        <url-pattern>/allRegistrations</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateServlet</servlet-name>
+        <url-pattern>/updateRow</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DeleteRowServlet</servlet-name>
+        <url-pattern>/deleteRow</url-pattern>
+    </servlet-mapping>
+</web-app>

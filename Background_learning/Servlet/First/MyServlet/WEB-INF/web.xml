@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>FirstEverServlet</servlet-name>
+        <servlet-class>FirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FirstEverServlet</servlet-name>
+        <url-pattern>cp</url-pattern>
+    </servlet-mapping>
+</web-app>

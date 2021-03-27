@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>ServletRequestInterface</servlet-name>
+        <servlet-class>ServletRequestInterface</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRequestInterface</servlet-name>
+        <url-pattern>/getName</url-pattern>
+    </servlet-mapping>
+</web-app>

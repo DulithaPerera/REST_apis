@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>ByServletInterface</servlet-name>
+        <servlet-class>ByImplementingServletInterface</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ByServletInterface</servlet-name>
+        <url-pattern>/byInterface</url-pattern>
+    </servlet-mapping>
+</web-app>
